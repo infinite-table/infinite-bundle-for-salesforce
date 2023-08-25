@@ -1,14 +1,20 @@
 # Infinite with Vite
 
-Bundling for salesforce steps
+## Bundling for salesforce
+
+Bundle the app
 
 ```sh
 $ npm run build
 ```
 
-go to `/dist/assets` and rename `index-<HASH>.js` to `index.js` and `index-<HASH>.css` to `index.css`
+then go to `/dist/assets`:
+ - rename `index-<HASH>.js` to `index.js`
+ - rename `index-<HASH>.css` to `index.css`
 
-Then archive the two files into a single zip and upload to salesforce static resource, let's say `infinitebundle`
+Then archive the two files into a single zip and upload to salesforce static resource.
+
+Let's name this resource `infinitebundle` in salesforce.
 
 ## In your LWC project
 
