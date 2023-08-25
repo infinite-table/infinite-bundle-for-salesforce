@@ -1,0 +1,5 @@
+@import "@infinite-table/infinite-react/index.css";
+
+:host {
+  color: magenta;
+}
